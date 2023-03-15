@@ -49,7 +49,7 @@ or just run your IntelliJ IDEA
 download the image postgre and run containner comand : 
 docker run -p 5432:5432 --name some-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=test -d postgres
 - run Api Rest option 1: imported in de IDE Eclipse STS , run proyect command : spring-boot:run   
-- run Api Rest option 2: in the path \spring-boot-superheroes-main> run command "docker build -t challenge:2.0 ."
+- run Api Rest option 2: in the path \spring-boot-superheroes-main> run command mvn package and run command "docker build -t challenge:2.0 ."
  start containner run commnad "docker run -p 8080:8080 challenge:2.0"
 ## Tips
 - press option + command + L to format your code
